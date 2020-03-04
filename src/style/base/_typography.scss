@@ -39,23 +39,6 @@ $font-family: (
   line-height: $line-height;
 }
 
-h1{
-  @include font-header(42px);
-  font-size: 36px;
-}
-h2{
-  @include font-header(28px);
-  font-size: 24px;
-}
-h3{
-  @include font-header(26px);
-  font-size: 18px;
-}
-h4{
-  @include font-header(20px);
-  font-size: 14px;
-}
-
 //default for paragraph, label and sidebar
 @mixin font-content($line-height){
   font-family: 'Ubuntu-Bold';
